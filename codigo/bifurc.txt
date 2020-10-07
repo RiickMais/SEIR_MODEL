@@ -1,0 +1,6 @@
+for i=1:1:1000
+	scatter(a(i,1),a(i,2),'k*')
+	if i==1
+		hold
+	end
+end
